@@ -1,0 +1,12 @@
+安装firewall
+yum install firewalld 
+添加端口
+firewall-cmd --add-port=10086/tcp --permanent
+登录steam
+login 用户名 密码
+安装目录
+force_install_dir "/home/steam/dst/"
+匿名登录steam
+login anonymous
+安装饥荒
+app_update 343050 validate
